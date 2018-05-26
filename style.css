@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
+body {
+	background: linear-gradient(#00FFFF, #FF5050) fixed;
+	font-family: 'Hammersmith One', sans-serif;
+
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#error {
+	color: red;
+}
+
+
+.loading_msg_area {
+	padding: 100px; 
+}
+
+#loading_msg {
+	color: white;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+.weather_info_area {
+	margin-top: 40px;
+    
+}
+
+.temp_area {
+	
+	margin: 0 auto; 
+
+	width: 150px;
+	height: 70px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.icon_area {
+	
+	margin: 0 auto; 
+	width: 200px;
+	height: 100px;
+}
+
+#city {
+
+	font-size: 30px;
+	margin: 5px;
+	margin-bottom: 10px;
+}
+
+#temp {
+	display: inline-block;
+	
+	font-size: 55px;
+	margin: 0px;
+}
+
+#temp_unit {
+	display: inline-block;
+	font-size: 20px;
+	margin: 0px;
+}
+
+#weather_icon {
+	margin: 0px;
+
+}
+
+#weather{
+	font-size: 20px;	
+
+}
+
+.wi { /* wetahr icon in JS */
+	font-size: 60px;
+	
+}
+
+#submit {
+	 background: linear-gradient(-120deg,#66FFCC,#FFFF00);
+ 
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px; 
+  cursor: pointer;
+  outline: none;
+}
+
+#submit:hover {
+	outline: none;
+}
+
+#inputCity {
+	border-radius: 5px;
+	padding: 6px; 
+}
