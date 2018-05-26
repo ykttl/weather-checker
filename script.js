@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-	var api = 'http://api.openweathermap.org/data/2.5/forecast?';
+	var api = 'https://api.openweathermap.org/data/2.5/forecast?';
 	var key = '&appid=1606bb8c9e5d6e24bcac2732fd1a5b07';
 	var celsius ='&units=metric';
     
